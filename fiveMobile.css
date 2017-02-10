@@ -1,0 +1,26 @@
+
+ul{
+    padding-left: 1.6rem;
+}
+li{
+
+    border-bottom: 1px solid #ddd;
+    padding:0 1.6rem;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    display: block;
+    height: 4rem;
+    /*line-height行高*/
+    line-height: 4rem;
+    /*overflow当文字溢出控件最大值时，所做的动作*/
+    overflow: hidden;
+    background:url("v1_bg@2x.png") right center no-repeat;
+    background-size: auto 1.4rem;
+    padding-right: 2.5rem;
+}
+time {
+    float: right;
+    color: #999;
+}

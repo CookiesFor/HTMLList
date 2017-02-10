@@ -1,0 +1,35 @@
+li{
+    list-style-type: none;
+    outline: 1px solid #dddddd;
+    line-height: 90px;
+}
+a{
+    /*height: 90px;*/
+    /*margin-left: 10px;*/
+    text-decoration: none;
+    /*background: url("mayi82.png") left center no-repeat;*/
+    /*overflow: hidden;*/
+    /*display: block;*/
+    /*position: relative;*/
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    background:url("mayi82.png") left center no-repeat;
+    /*background-size: auto 1.4rem;*/
+    padding-left: 90px;
+    position: relative;
+    margin-top: 0px;
+    /*background-color: #22aadd;*/
+}
+ul{
+
+    margin: 0px;
+    padding: 0px;
+}
+.ico{
+
+    background-color: red;
+
+
+}

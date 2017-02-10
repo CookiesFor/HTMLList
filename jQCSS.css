@@ -1,0 +1,15 @@
+.div1{
+
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    background-color: aqua;
+
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    background-color: #cccccc;
+}

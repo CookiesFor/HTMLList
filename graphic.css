@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    width: 50%;
+    float: left;
+    padding: 1rem 0;
+    outline: 1px solid #dddddd;
+    background: #ffffff;
+    list-style-type: none;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+.goods_title,.goods_price {
+    padding: 0 1rem;
+    text-align: center;
+}
+.goods_photo {
+    width: 60%;
+    margin: .5rem auto;
+    display: block;
+}
+
+.goods_title,
+.goods_price {
+    display: block;
+    position: relative;
+   /*@include ts(); // 引用文字描白边代码片*/
+   /*@include online(1.8rem); // 引用文字超出一行省略号代码片*/
+}
+.goods_title {
+    color:#000;
+    font-size: 1.2rem;
+}
+.goods_price {
+    color:#f60;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
